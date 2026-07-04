@@ -1,0 +1,25 @@
+SET SERVEROUTPUT ON;
+
+BEGIN
+
+FOR loan IN (
+
+SELECT CUSTOMERID,DUEDATE
+FROM LOANS
+WHERE DUEDATE<=SYSDATE+30
+
+)
+
+LOOP
+
+DBMS_OUTPUT.PUT_LINE(
+'Reminder sent to Customer '
+|| loan.CUSTOMERID
+|| ' Loan Due: '
+|| loan.DUEDATE
+);
+
+END LOOP;
+
+END;
+/

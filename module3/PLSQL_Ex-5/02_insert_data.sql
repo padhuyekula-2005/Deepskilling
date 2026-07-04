@@ -1,0 +1,17 @@
+INSERT INTO Customers_E5
+VALUES
+(1,'Ravi','Hyderabad',SYSDATE);
+
+INSERT INTO Customers_E5
+VALUES
+(2,'Sita','Vijayawada',SYSDATE);
+
+INSERT INTO Accounts_E5
+VALUES
+(101,1,50000);
+
+INSERT INTO Accounts_E5
+VALUES
+(102,2,30000);
+
+COMMIT;

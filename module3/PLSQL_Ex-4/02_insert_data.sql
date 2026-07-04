@@ -1,0 +1,17 @@
+INSERT INTO Customers_E4
+VALUES
+(1,'Ravi',TO_DATE('15-08-2000','DD-MM-YYYY'));
+
+INSERT INTO Customers_E4
+VALUES
+(2,'Sita',TO_DATE('20-05-1998','DD-MM-YYYY'));
+
+INSERT INTO Accounts_E4
+VALUES
+(101,'Ravi',50000);
+
+INSERT INTO Accounts_E4
+VALUES
+(102,'Sita',30000);
+
+COMMIT;

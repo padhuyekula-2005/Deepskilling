@@ -1,0 +1,11 @@
+CREATE OR REPLACE TRIGGER UpdateCustomerLastModified
+BEFORE UPDATE
+ON Customers_E5
+FOR EACH ROW
+
+BEGIN
+
+    :NEW.LastModified := SYSDATE;
+
+END;
+/
