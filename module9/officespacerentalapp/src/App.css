@@ -1,0 +1,17 @@
+.App{
+  text-align:center;
+  padding:20px;
+}
+
+img{
+  border-radius:10px;
+  margin:20px;
+}
+
+.card{
+  border:1px solid gray;
+  padding:15px;
+  width:300px;
+  margin:15px auto;
+  border-radius:8px;
+}

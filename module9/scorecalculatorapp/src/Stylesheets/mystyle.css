@@ -1,0 +1,27 @@
+body{
+    background-color:#f0f8ff;
+    font-family:Arial;
+}
+
+.box{
+    width:500px;
+    margin:auto;
+    margin-top:50px;
+    padding:20px;
+    border:2px solid blue;
+    border-radius:10px;
+    background-color:white;
+    text-align:center;
+}
+
+h1{
+    color:blue;
+}
+
+h2{
+    color:green;
+}
+
+h3{
+    color:brown;
+}
