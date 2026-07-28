@@ -1,4 +1,0 @@
-15:58:22.791 [com.logging.LoggingExample.main()] DEBUG com.logging.LoggingExample - This is a DEBUG message
-15:58:22.793 [com.logging.LoggingExample.main()] INFO  com.logging.LoggingExample - This is an INFO message
-15:58:22.793 [com.logging.LoggingExample.main()] WARN  com.logging.LoggingExample - This is a WARNING message
-15:58:22.793 [com.logging.LoggingExample.main()] ERROR com.logging.LoggingExample - This is an ERROR message
