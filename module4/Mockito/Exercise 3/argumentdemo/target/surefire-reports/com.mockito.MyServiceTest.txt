@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.mockito.MyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! -- in com.mockito.MyServiceTest
+com.mockito.MyServiceTest.testArgumentMatching -- Time elapsed: 0.024 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	ExternalApi cannot be resolved to a type
+	ExternalApi cannot be resolved to a type
+
+	at com.mockito.MyServiceTest.testArgumentMatching(MyServiceTest.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
